@@ -1,0 +1,8 @@
+This is a sample document about Artificial Intelligence in Healthcare. AI is revolutionizing diagnostics by analyzing medical images with high precision.
+Machine learning models can predict patient readmission rates, helping hospitals manage resources efficiently.
+In finance, quantitative models use historical data to forecast stock market trends. Algorithmic trading executes thousands of trades per second.
+The integration of RAG (Retrieval-Augmented Generation) allows language models to access real-time enterprise data, preventing hallucinations.
+Hybrid search, combining BM25 keyword matching with dense vector embeddings, represents the state-of-the-art in document retrieval systems.
+Cross-encoders provide superior accuracy over bi-encoders for re-ranking retrieved nodes, though they are computationally more expensive.
+The capital of France is Paris, but the financial capital of Germany is Frankfurt.
+LangGraph enables cyclical, deterministic state management for multi-agent workflows, surpassing linear LangChain abstractions.
