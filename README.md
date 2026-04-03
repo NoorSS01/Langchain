@@ -69,3 +69,4 @@ While standard "Chains" are sufficient for simple QA, enterprise applications re
 
 ---
 *Built to demonstrate proficiency in advanced AI Engineering.*
+Some upgrages are still being made on this project
