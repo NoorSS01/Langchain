@@ -19,6 +19,7 @@ from langchain_core.output_parsers import StrOutputParser
 # Load environment variables
 load_dotenv()
 
+#Creating a class
 class AdvancedHybridRAG:
     """
     A production-grade RAG pipeline implementing:
@@ -37,6 +38,7 @@ class AdvancedHybridRAG:
         self.retriever = self._build_hybrid_retriever()
         self.rag_chain = self._build_rag_chain()
 
+    #Function which load and split the documents
     def _load_and_split_documents(self) -> List[Document]:
         """Loads text and splits it into semantic chunks."""
         print("[INFO] Loading and splitting documents...")
@@ -50,6 +52,7 @@ class AdvancedHybridRAG:
         )
         return text_splitter.split_documents(documents)
 
+    #It is Hybrid Retriever
     def _build_hybrid_retriever(self):
         """Constructs an ensemble retriever with a cross-encoder re-ranker."""
         print("[INFO] Building FAISS Vector Store and BM25 Retriever...")
